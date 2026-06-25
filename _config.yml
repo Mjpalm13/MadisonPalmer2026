@@ -1,5 +1,21 @@
-title: Madison Palmer  |  Portfolio
-description: BYU IS Student — data engineering, full-stack development, and analytics
+title: Madison Palmer
+title_separator: ""
+description: Business Information Systems student at BYU. Building data platforms, web apps, and thoughtful design.
 author: Madison Palmer
+url: "https://mjpalm13.github.io"
+baseurl: "/MadisonPalmer2026"
 
 theme: minima
+
+minima:
+  skin: auto
+  social_links:
+    - platform: github
+      user_url: https://github.com/Mjpalm13
+
+header_pages:
+  - index.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
