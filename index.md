@@ -3,7 +3,7 @@
 <strong>Welcome to my GitHub portfolio!</strong>  <br>
 
 <br>
-I’m a Business Information Systems student at BYU with a minor in Statistics. I have a passion for web development, machine learning, data, and clean design.
+I'm a Business Information Systems student at BYU with a minor in Statistics. I have a passion for web development, machine learning, data engineering, and clean design.
 
 <div style="clear: both;"></div>
 
@@ -13,11 +13,37 @@ I’m a Business Information Systems student at BYU with a minor in Statistics. 
 
 <br>
 
-## 📁 Projects & Repositories
+## 📁 Featured Projects
 
-The main highlight of my GitHub is the **[INTEX Project: Entertainment Agency Web App](https://github.com/Mjpalm13/Intex1_15)** — a full-stack application built with React and ASP.NET Core, deployed on Azure. It was the capstone project for my BYU Information Systems Junior Core experience and showcases a complete product cycle from database design to UI deployment.
+### 🏆 IS 566 Final Project — Adventure Works Analytics Data Platform
 
-The majority of my other repositories come from my **Enterprise Web Application Development** course, where we focused on building modern apps using **.NET Core** and **React**. These projects strengthened my skills in full-stack architecture, API development, and frontend design patterns.
+**[View Repository →](https://github.com/Mjpalm13/is-566-final-project)**
+
+My capstone project for **IS 566 (Enterprise Analytics & Data Platforms)** at BYU. I built an end-to-end data platform that ingests data from **PostgreSQL**, **MongoDB**, and a **web analytics API**, loads it into **Snowflake**, transforms it with **dbt**, orchestrates pipelines with **Prefect**, and exposes the project to AI agents through an **MCP server**.
+
+This project demonstrates the full analytics engineering lifecycle: ingestion, warehousing, modeling, testing, orchestration, and AI-ready data access.
+
+**Tech:** Snowflake · dbt · Prefect · Python · Docker · MCP
+
+<br>
+
+### 📖 Landscapes of Faith — Religion & Scripture Study Project
+
+**[View Repository →](https://github.com/Mjpalm13/landscapes-of-faith)** · **[Live Site →](https://mjpalm13.github.io/landscapes-of-faith/)**
+
+A personal **religion and scripture study** web app I built for my Book of Mormon class. It pairs original landscape photography with scripture passages, doctrinal insights, General Conference connections, and personal reflection prompts — a digital study journal designed to deepen scripture engagement.
+
+**Tech:** React · Vite · JavaScript · CSS
+
+<br>
+
+### 🎭 INTEX Project — Entertainment Agency Web App
+
+**[View Repository →](https://github.com/Mjpalm13/Intex1_15)**
+
+A full-stack application built with **React** and **ASP.NET Core**, deployed on **Azure**. This was the capstone for my BYU Information Systems Junior Core experience — a complete product cycle from database design to UI deployment.
+
+**Tech:** React · ASP.NET Core · Entity Framework · Azure · SQL Server
 
 <br>
 
@@ -28,9 +54,10 @@ The majority of my other repositories come from my **Enterprise Web Application 
 ## 🔧 Technologies I Work With
 
 - **Languages:** JavaScript, TypeScript, C#, Python, SQL, HTML, CSS  
-- **Frameworks:** React, ASP.NET Core, Entity Framework, Tailwind  
-- **Tools:** Azure, GitHub, Visual Studio Code, Postman, SSMS  
-- **Concepts:** REST APIs, full-stack development, Git workflows
+- **Data & Analytics:** Snowflake, dbt, Prefect, pandas, data modeling  
+- **Frameworks:** React, ASP.NET Core, Entity Framework, Tailwind, Vite  
+- **Tools:** Azure, GitHub, Docker, Visual Studio Code, Postman, SSMS  
+- **Concepts:** REST APIs, full-stack development, data pipelines, Git workflows
 
 <br>
 
@@ -40,7 +67,7 @@ The majority of my other repositories come from my **Enterprise Web Application 
 
 ## 🌴 A Little More About Me
 
-I'm passionate about collaborative development and bringing ideas to life through code. In the future, I hope to upload some of my machine learning pipelines and models here. I love hiking and anything outdoors.
+I'm passionate about collaborative development and bringing ideas to life through code. I enjoy building things that are both technically solid and meaningful — whether that's a production data platform or a personal scripture study project. I love hiking and anything outdoors.
 
 <br>
 
