@@ -74,37 +74,32 @@ body {
   font-weight: 500;
 }
 
-.site-nav {
-  float: none;
-  display: flex;
+.site-nav,
+.nav-trigger,
+label[for="nav-trigger"] {
+  display: none !important;
+}
+
+.header-github {
+  display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-}
-
-.site-nav .page-link {
-  color: var(--muted);
-  font-size: 0.95rem;
-  font-weight: 500;
-  margin-left: 0;
-  padding: 0.45rem 0.75rem;
+  padding: 0.55rem 1rem;
   border-radius: 999px;
-  transition: color 0.2s ease, background 0.2s ease;
+  background: var(--accent);
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: background 0.2s ease;
 }
 
-.site-nav .page-link:hover {
-  color: var(--accent-dark);
-  background: var(--accent-soft);
+.header-github:hover {
+  background: var(--accent-dark);
   text-decoration: none;
 }
 
-.site-nav .nav-cta {
-  color: #fff;
-  background: var(--accent);
-}
-
-.site-nav .nav-cta:hover {
-  color: #fff;
-  background: var(--accent-dark);
+.post-header {
+  display: none;
 }
 
 .site-footer {
@@ -326,12 +321,5 @@ body {
   .hero-photo {
     width: 120px;
     height: 120px;
-  }
-
-  .site-nav {
-    background: rgba(255, 255, 255, 0.98);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 0.5rem;
   }
 }
